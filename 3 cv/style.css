@@ -1,0 +1,60 @@
+body {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    align-items: center;
+
+}
+h1 {
+    margin-top: 0px;
+    margin-top: 0px;
+
+}
+.container {
+    background-color: beige;
+    height: 1300px;
+    width: 100%;
+    
+}
+.a {
+    background-color: beige;
+    /* height: 500px;
+    width: 48%;
+    float: left; */
+    border-left: 5px solid black;
+    margin-left: 20px;
+}
+
+.b {
+    background-color:beige;
+    /* height: 500px;
+    width: 48%;
+    margin-left: 500px;
+    display: inline;
+    position: absolute;
+    float: left;
+    top: 0 */
+    border-right: 5px solid black;
+}
+
+.child{
+    height: 780px;
+    width: 44%;
+    float: left;
+    padding: 50px 20px 0 30px;
+    border-bottom: 5px solid black
+}
+
+.vertical {
+    border-left: 3px solid black;
+    height: 726px;
+    float: left;
+    border-bottom: 5px solid black;
+    margin-top: 60px;
+}
+.heading {
+    text-align: center;
+    margin-right: 58px;
+    margin-bottom: 10px;
+}
