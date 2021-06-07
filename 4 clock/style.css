@@ -1,0 +1,80 @@
+div {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.time {
+    position: absolute;
+    display: flex;
+}
+
+.twelve {
+    position: absolute;
+    top: -186px;
+}
+.three {
+    position: absolute;
+    right: -180px;
+}
+.six {
+    position: absolute;
+    bottom: -200px;
+}
+.nine {
+    position: absolute;
+    right: 177px;
+}
+.inner {
+    background-color:#eee;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 5px solid gray;   
+}
+.outer {
+    background-color: rgb(57, 166, 163);
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    border: 5px solid gray;
+    position: absolute;
+    top: 21%;
+    left: 33%; 
+    
+}
+
+.hand {
+  position: absolute;
+  border-right: 5px solid black;
+  height:35%;
+  top: 50%;
+  transform-origin: top;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+    
+}
+.second{
+    animation: rotation 60s infinite linear;
+}
+.min {
+    animation: rotation 3600s infinite linear;
+}
+.hour {
+    animation: rotation 216000s infinite linear;
+}
+.project {
+    position: absolute;
+    bottom: 10px;
+    left:43%;
+    color:rgb(57, 166, 163)
+}
